@@ -1,0 +1,7 @@
+# Ignorer les photos dans les sous-dossiers de img
+img/*/
+
+# Inclure les images directement dans img
+!img/*.jpg
+!img/*.jpeg
+!img/*.png
