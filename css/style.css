@@ -238,6 +238,11 @@ body.dark-mode header {
     /* Couleur de fond de l'en-tête dans le mode sombre */
 }
 
+body.dark-mode header .icon {
+    color: #fff;
+    /* Couleur de l'icône du mode sombre */
+}
+
 body.dark-mode header.responsive>a,
 body.dark-mode header.responsive .dropdown-1 {
     background-color: #333;
