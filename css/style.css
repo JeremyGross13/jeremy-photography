@@ -15,6 +15,7 @@ header {
     display: flex;
     align-items: center;
     position: relative;
+    z-index: 9999;
     flex-direction: row;
 }
 
@@ -235,6 +236,16 @@ body.dark-mode {
 body.dark-mode header {
     background-color: #333;
     /* Couleur de fond de l'en-tête dans le mode sombre */
+}
+
+body.dark-mode header .icon {
+    color: #fff;
+    /* Couleur de l'icône du mode sombre */
+}
+
+body.dark-mode header.responsive>a,
+body.dark-mode header.responsive .dropdown-1 {
+    background-color: #333;
 }
 
 body.dark-mode button,
