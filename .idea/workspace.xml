@@ -5,14 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="07e1c720-db1e-4bc2-b587-6a00eb120b06" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/aquarium.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/aquarium.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/begur.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/begur.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/laCiotat.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/laCiotat.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/monaco.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/monaco.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/sausset.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/sausset.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/venelle.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/venelle.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +31,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "true",
-    "git-widget-placeholder": "adaptation__structure",
+    "git-widget-placeholder": "develop",
     "last_opened_file_path": "/home/jeremy/Téléchargements/jeremy-photography",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -57,7 +50,7 @@
       <option name="presentableId" value="Default" />
       <updated>1680006138992</updated>
       <workItem from="1680006140186" duration="9000" />
-      <workItem from="1685613011296" duration="865000" />
+      <workItem from="1685613011296" duration="1443000" />
     </task>
     <servers />
   </component>
