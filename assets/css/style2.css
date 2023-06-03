@@ -1,28 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
 
 
-*{
+* {
     font-family: 'Montserrat', sans-serif;
 }
 
-.container{
+.container {
     display: flex;
     flex-direction: row;
 }
 
-h1{
+h1 {
     font-size: 2.5em;
     text-align: center;
 }
 
-section{
+section {
     width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
 
-.card{
+.card {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -32,27 +32,27 @@ section{
     padding: 2%;
 }
 
-.card img{
+.card img {
     width: 250px;
     border-radius: 50%;
 }
 
-.card p{
+.card p {
     padding: 5% 10%;
     font-size: 1.2em;
 }
 
-.card p a{
-    color: #64766a;
+.card p a {
+    color: #98c6a7;
     text-decoration: none;
     font-size: 1em;
 }
 
-.location{
+.location {
     margin-top: 5%;
 }
 
-.location a{
+.location a {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -60,18 +60,18 @@ section{
     color: #000;
 }
 
-.location a:hover{
+.location a:hover {
     transition: 0.5s;
     color: #64766a;
 }
 
-.reseaux-sociaux{
+.reseaux-sociaux {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
-.reseaux-sociaux a{
+.reseaux-sociaux a {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -83,75 +83,70 @@ section{
     border-radius: 20px;
 }
 
-svg{
+svg {
     background: none;
 }
 
-/* .reseaux-sociaux a:hover{
-    transform: scale(1.2) translateY(-5px);
-    background: none;
-} */
-
-.instagram{
-    background: linear-gradient(45deg, #405de6, 
-    #5851db,
-    #833ab4,
-    #c13584,
-    #e1306c,
-    #fd1d1d);
+.instagram {
+    background: linear-gradient(45deg, #405de6,
+            #5851db,
+            #833ab4,
+            #c13584,
+            #e1306c,
+            #fd1d1d);
     box-shadow: 0 4px 30px rgba(120 64 190 0.6);
 }
 
-.twitter{
+.twitter {
     background: linear-gradient(45deg, #1da1f2, #0e71c8);
     box-shadow: 0 4px 30px rgba(19, 127, 212, 0.7);
-} 
+}
 
-.github{
+.github {
     background: linear-gradient(45deg, #333333, #626b73);
     box-shadow: 0 4px 30px rgba(63, 65, 67, 0.6);
 }
 
-.linkedin{
+.linkedin {
     background: linear-gradient(45deg, #1769ff, #213fca);
     box-shadow: 0 4px 30px rgba(27, 86, 231, 0.6);
 }
 
-.youtube{
+.youtube {
     background: linear-gradient(45deg, #c12544, #ff0000);
     box-shadow: 0 4px 30px rgba(240, 128, 128, 0.7);
 }
 
-@media (max-width:955px){
+@media (max-width:955px) {
 
-    .container{
+    .container {
         flex-direction: column;
     }
 
-    h1{
+    h1 {
         width: 50%;
     }
 
-    section{
+    section {
         margin-left: 0;
         width: 100%;
         flex-direction: column;
         align-items: center;
     }
 
-    section a{ 
+    section a {
         width: 90%;
     }
 
-    .card{
+    .card {
         margin: 0 20px 20px;
     }
 
-    .card p{
+    .card p {
         font-size: 1.1em;
     }
-    
-    h2{
+
+    h2 {
         font-size: 1.2em;
     }
 }
