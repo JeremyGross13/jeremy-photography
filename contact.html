@@ -8,7 +8,7 @@
     <meta name="description" content="Jeremy Gross\'s Photographies">
     <meta name="keywords" content="photo, photographie, shooting, cars, landscape">
     <meta name="author" content="Jérémy Gross">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link id="theme" rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/style2.css">
     <link rel="icon" href="assets/img/icon.png">
     <!-- <a href="https://www.flaticon.com/free-icons/ui" title="ui icons">Ui icons created by manshagraphics - Flaticon</a> -->
@@ -16,7 +16,7 @@
 
 <body>
     <header id="navbar" class="nav">
-        <button onclick="toggleDarkMode()">&#x263D;</button>
+        <button onclick="switchTheme()">&#x263D;</button>
 
         <a href="index.html">
             <button>Home</button>
@@ -55,9 +55,10 @@
             <img src="assets/img/profile.JPG" alt="Photo de profil">
             <div class="location">
                 <a href="https://www.bing.com/maps?q=map+aix+en+provence&FORM=HDRSC6">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-pin" width="24"
-                        height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
-                        stroke-linecap="round" stroke-linejoin="round">
+                    <svg id="icon-location" xmlns="http://www.w3.org/2000/svg"
+                        class="icon icon-tabler icon-tabler-map-pin" width="24" height="24" viewBox="0 0 24 24"
+                        stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"
+                        stroke-linejoin="round">
                         <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
                         <circle cx="12" cy="11" r="3"></circle>
                         <path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z">
@@ -69,13 +70,13 @@
                 </a>
             </div>
             <p>
-                Hello, I\'m a French photographer from Aix-en-Provence, in the south of France ! I\'m currently student
+                Hello, I'm a French photographer from Aix-en-Provence, in the south of France ! I'm currently student
                 at
                 the IUT in IT class.
                 Here is my personnal website to show to the world my photos. I entirely made this website using my Html
                 and Css skills. I
                 have already made other website, my <a href="https://jeremy-gross.alwaysdata.net/">Portfolio</a>, the <a
-                    href="https://manonchalony.alwaysdata.net/">Manon\'s photograph website</a> and many more.
+                    href="https://manonchalony.alwaysdata.net/">Manon's photograph website</a> and many more.
             </p>
             <div class="reseaux-sociaux">
                 <a href="https://www.instagram.com/jeremy__grs/" class="instagram">
@@ -134,5 +135,6 @@
     </section>
 </body>
 <script src="assets/js/app.js"></script>
+<script src="assets/js/switchTheme.js"></script>
 
 </html>
