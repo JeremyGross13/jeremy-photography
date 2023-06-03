@@ -1,5 +1,5 @@
 # Ignorer les photos dans les sous-dossiers de img
-img/*/
+
 .idea/
 
 # Inclure les images directement dans img
