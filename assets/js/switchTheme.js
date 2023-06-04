@@ -41,11 +41,14 @@ function loadThemeFromCookie() {
 // Fonctions pour changer le thème
 function switchTheme() {
     var themeLink = document.getElementById('theme');
+    var themeInstaLink = document.getElementById('themeInsta');
     var currentTheme = themeLink.getAttribute('href');
     if (currentTheme === 'assets/css/style.css') {
         themeLink.setAttribute('href', 'assets/css/sombre.css');
+        themeInstaLink.setAttribute('href', 'assets/css/instagramCardSombre.css');
         setCookie('theme', 'sombre', 30); // Enregistrer le thème dans un cookie pendant 30 jours
     } else {
+        themeInstaLink.setAttribute('href', 'assets/css/instagramCard.css');
         themeLink.setAttribute('href', 'assets/css/style.css');
         setCookie('theme', 'clair', 30); // Enregistrer le thème dans un cookie pendant 30 jours
     }
