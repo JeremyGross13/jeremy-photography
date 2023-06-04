@@ -28,7 +28,7 @@ function loadThemeFromCookie() {
     var themeLink = document.getElementById('theme');
     var savedTheme = getCookie('theme');
     if (savedTheme === 'sombre') {
-        if (window.location.pathname === '/Jeremy-Photography/index.html' || window.location.pathname === '/Jeremy-Photography/contact.html') {
+        if (window.location.pathname === '/jeremyphotography.alwaysdata.net/index.html' || window.location.pathname === '/jeremyphotography.alwaysdata.net/contact.html') {
             themeLink.setAttribute('href', 'assets/css/sombre.css');
         }
         else {
