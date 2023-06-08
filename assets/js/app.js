@@ -95,6 +95,24 @@ function choisirPhotosAleatoires() {
         "assets/img/Sausset/IMG_1954.webp",
         "assets/img/Sausset/IMG_1959.webp",
         "assets/img/Sausset/IMG_1963.webp",
+        "assets/img/Nice/IMG_2765.webp",
+        "assets/img/Nice/IMG_2786.webp",
+        "assets/img/Nice/IMG_2789.webp",
+        "assets/img/Nice/IMG_2790.webp",
+        "assets/img/Nice/IMG_2791.webp",
+        "assets/img/Nice/IMG_2803.webp",
+        "assets/img/Nice/IMG_2806.webp",
+        "assets/img/Nice/IMG_3294.webp",
+        "assets/img/Nice/IMG_3304.webp",
+        "assets/img/MonacoGP/IMG_2863.webp",
+        "assets/img/MonacoGP/IMG_3013.webp",
+        "assets/img/MonacoGP/IMG_3257.webp",
+        "assets/img/MonacoGP/IMG_3259.webp",
+        "assets/img/MonacoGP/IMG_3264.webp",
+        "assets/img/MonacoGP/IMG_3266.webp",
+        "assets/img/MonacoGP/IMG_3270.webp",
+        "assets/img/MonacoGP/IMG_3280.webp",
+
     ];
 
     // Sélectionner 12 images aléatoirement
