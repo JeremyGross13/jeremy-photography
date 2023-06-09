@@ -94,6 +94,7 @@ header .icon {
 /*--------- Section ----------*/
 
 section {
+    padding-top: 70px;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
