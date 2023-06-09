@@ -127,7 +127,7 @@ function choisirPhotosAleatoires() {
     randomImages.forEach(image => {
         const div = document.createElement("div");
         div.classList.add("grid");
-        div.innerHTML = `<img class="vertical2 fade-in" src="${image}" alt="photo">`;
+        div.innerHTML = `<img class="vertical2 fade-in" src="${image}" alt="Picture">`;
         document.getElementById("imagesAleatoires").appendChild(div);
     });
 }
