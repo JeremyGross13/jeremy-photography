@@ -27,7 +27,7 @@ header {
     background-color: #333;
     display: flex;
     align-items: center;
-    position: relative;
+    position: fixed;
     z-index: 9999;
     flex-direction: row;
 }
@@ -94,6 +94,7 @@ header .icon {
 /*--------- Section ----------*/
 
 section {
+    padding-top: 70px;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -180,7 +181,6 @@ img {
     }
 
     header {
-        position: fixed;
         flex-direction: column;
         min-height: 70px;
         height: 70px;
