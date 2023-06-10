@@ -127,8 +127,219 @@ img {
     }
 }
 
+/*-----------------Contact-----------------*/
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+h1 {
+    font-size: 2.5em;
+    text-align: center;
+    margin: 0 20px 20px 20px;
+}
+
+.section-contact {
+    padding-top: 70px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px;
+    margin: 0 15% 15px;
+    padding: 2%;
+}
+
+.card img {
+    width: 250px;
+    border-radius: 50%;
+}
+
+.card p {
+    padding: 3% 10%;
+    font-size: 1.2em;
+}
+
+.card p a {
+    color: #98c6a7;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+.location {
+    margin-top: 5%;
+}
+
+.location a {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-decoration: none;
+    color: #000;
+}
+
+.location a:hover {
+    transition: 0.5s;
+    color: #64766a;
+}
+
+.reseaux-sociaux {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.reseaux-sociaux a {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-right: 2%;
+    width: 55px;
+    height: 55px;
+    color: #fff;
+    border-radius: 20px;
+}
+
+svg {
+    background: none;
+}
+
+.instagram {
+    background: linear-gradient(45deg, #405de6,
+            #5851db,
+            #833ab4,
+            #c13584,
+            #e1306c,
+            #fd1d1d);
+    box-shadow: 0 4px 30px rgba(120 64 190 0.6);
+}
+
+.twitter {
+    background: linear-gradient(45deg, #1da1f2, #0e71c8);
+    box-shadow: 0 4px 30px rgba(19, 127, 212, 0.7);
+}
+
+.github {
+    background: linear-gradient(45deg, #333333, #626b73);
+    box-shadow: 0 4px 30px rgba(63, 65, 67, 0.6);
+}
+
+.linkedin {
+    background: linear-gradient(45deg, #1769ff, #213fca);
+    box-shadow: 0 4px 30px rgba(27, 86, 231, 0.6);
+}
+
+.youtube {
+    background: linear-gradient(45deg, #c12544, #ff0000);
+    box-shadow: 0 4px 30px rgba(240, 128, 128, 0.7);
+}
+
+.formulaire {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2% 0;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+
+input,
+textarea {
+    display: block;
+    margin-bottom: 10px;
+    resize: none;
+    width: 100%;
+    min-height: 25px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+}
+
+input[type="submit"] {
+    width: 70%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    transition: ease-in-out 0.3s;
+    border-radius: 10px;
+}
+
+input[type="submit"]:hover {
+    background-color: #2d6a30;
+}
+
 
 /*---------- Media -----------*/
+
+@media (max-device-width: 428px) {
+    h1 {
+        margin: 0 100px 20px;
+        font-size: 1.7em;
+    }
+
+    label {
+        font-size: 1.1em;
+        font-weight: 600;
+    }
+
+    input {
+        font-size: 1em;
+        font-weight: 600;
+    }
+}
+
+@media (max-width:955px) {
+
+    .container {
+        flex-direction: column;
+    }
+
+    .section-contact {
+        margin-left: 0;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .section-contact a {
+        margin: 10px 0;
+    }
+
+    .card {
+        margin: 0 20px 20px;
+    }
+
+    .card p {
+        font-size: 1.1em;
+    }
+
+    h2 {
+        font-size: 1.2em;
+    }
+
+    form {
+        max-width: 80%;
+    }
+}
 
 @media (max-width: 600px) {
 
