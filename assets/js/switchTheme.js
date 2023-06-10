@@ -51,21 +51,6 @@ function switchTheme() {
     }
 }
 
-function switchThemeContact() {
-    var themeLink = document.getElementById('theme');
-    var currentTheme = themeLink.getAttribute('href');
-    var themeLinkContact = document.getElementById('theme-contact');
-    if (currentTheme === 'assets/css/style.css') {
-        themeLink.setAttribute('href', 'assets/css/sombre.css');
-        themeLinkContact.setAttribute('href', 'assets/css/sombre2.css');
-        setCookie('theme', 'sombre', 30); // Enregistrer le thème dans un cookie pendant 30 jours
-    } else {
-        themeLink.setAttribute('href', 'assets/css/style.css');
-        themeLinkContact.setAttribute('href', 'assets/css/style2.css');
-        setCookie('theme', 'clair', 30); // Enregistrer le thème dans un cookie pendant 30 jours
-    }
-}
-
 function switchThemePages() {
     var themeLink = document.getElementById('theme');
     var currentTheme = themeLink.getAttribute('href');
