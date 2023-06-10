@@ -11,6 +11,7 @@
 }
 
 h1 {
+    color: #fff;
     font-size: 2.5em;
     text-align: center;
     margin-bottom: 20px;
@@ -131,6 +132,7 @@ form {
 }
 
 label {
+    color: #fff;
     display: block;
     font-size: 1em;
     margin-bottom: 10px;
@@ -138,13 +140,15 @@ label {
 
 input,
 textarea {
+    color: #fff;
+    background-color: #333;
     display: block;
     margin-bottom: 10px;
     resize: none;
     width: 100%;
     min-height: 25px;
     border: none;
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid #fff;
     outline: none;
 }
 

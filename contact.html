@@ -9,14 +9,14 @@
     <meta name="keywords" content="photo, photographie, contact, instagram, twitter, about page">
     <meta name="author" content="Jérémy Gross">
     <link id="theme" rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/style2.css">
+    <link id="theme-contact" rel="stylesheet" href="assets/css/style2.css">
     <link rel="icon" href="assets/img/icon.png">
     <!-- <a href="https://www.flaticon.com/free-icons/ui" title="ui icons">Ui icons created by manshagraphics - Flaticon</a> -->
 </head>
 
 <body>
     <header id="navbar" class="nav">
-        <button onclick="switchTheme()">&#x263D;</button>
+        <button onclick="switchThemeContact()">&#x263D;</button>
 
         <a href="index.html">
             <button>Home</button>
@@ -135,6 +135,30 @@
                 </a>
             </div>
         </div>
+    </section>
+
+    <section class="formulaire">
+
+        <h1>Formulaire de contact</h1>
+        <form method="post" action="envoi-email.php">
+            <label for="nom">Nom :</label>
+            <input type="text" id="nom" name="nom" required>
+
+            <label for="prenom">Prénom :</label>
+            <input type="text" id="prenom" name="prenom" required>
+
+            <label for="telephone">Téléphone :</label>
+            <input type="tel" id="telephone" name="telephone" required>
+
+            <label for="email">E-mail :</label>
+            <input type="text" id="email" name="email" required>
+
+            <label for="message">Message :</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <input type="submit" value="Envoyer">
+        </form>
+
     </section>
 </body>
 <script src="assets/js/app.js"></script>
