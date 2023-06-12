@@ -310,6 +310,12 @@ input[type="submit"]:hover {
 
 /*---------- Media -----------*/
 
+@media (min-width:1550px) {
+    .vertical {
+        width: 400px;
+    }
+}
+
 @media (max-device-width: 428px) {
     h1 {
         margin: 0 100px 20px;
