@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
 
 * {
@@ -27,7 +28,7 @@ header {
     background-color: #333;
     display: flex;
     align-items: center;
-    position: fixed;
+    position: relative;
     z-index: 9999;
     flex-direction: row;
 }
@@ -91,10 +92,84 @@ header .icon {
     color: #fff;
 }
 
+/*-----------Accueil------------*/
+
+.accueil {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+#title {
+    color: #fff;
+    letter-spacing: 1px;
+    margin: 20px 0 50px;
+    font-size: 53px;
+    font-weight: bolder;
+    display: inline-block;
+}
+
+.carousel-container {
+    position: relative;
+    width: 800px;
+    overflow: hidden;
+    margin-bottom: 100px;
+}
+
+.carousel-slide {
+    display: flex;
+    width: 100%;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel-slide img {
+    width: 400px;
+}
+
+#prevBtn {
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 10px;
+    background-color: transparent;
+    border: none;
+    font-size: 40px;
+    cursor: pointer;
+    left: 10px;
+}
+
+#nextBtn {
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 10px;
+    background-color: transparent;
+    border: none;
+    font-size: 40px;
+    cursor: pointer;
+    right: 10px;
+}
+
+.text-accueil {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text-accueil p {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    line-height: 22px;
+}
+
 /*--------- Section ----------*/
 
 section {
-    padding-top: 70px;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -159,7 +234,6 @@ h1 {
 }
 
 .section-contact {
-    padding-top: 70px;
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -181,14 +255,23 @@ h1 {
 }
 
 .card p {
-    padding: 3% 10%;
-    font-size: 1.2em;
+    width: 600px;
+    margin: 50px 0;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    line-height: 22px;
 }
 
 .card p a {
-    color: #98c6a7;
-    text-decoration: none;
-    font-size: 1em;
+    color: #fff;
+    text-decoration: underline;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.card p a:hover {
+    color: #797979;
 }
 
 .location {
@@ -269,13 +352,15 @@ svg {
 
 form {
     max-width: 400px;
-    margin: 0 auto;
+    margin: 20px auto;
 }
 
 label {
-    color: #fff;
     display: block;
-    font-size: 1em;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    line-height: 22px;
     margin-bottom: 10px;
 }
 
@@ -294,6 +379,9 @@ textarea {
 }
 
 input[type="submit"] {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    line-height: 22px;
     width: 70%;
     background-color: #4CAF50;
     color: white;
@@ -331,6 +419,10 @@ input[type="submit"]:hover {
         font-size: 1em;
         font-weight: 600;
     }
+
+    .text-accueil p {
+        font-size: 1.1em;
+    }
 }
 
 @media (max-width:955px) {
@@ -355,7 +447,8 @@ input[type="submit"]:hover {
     }
 
     .card p {
-        font-size: 1.1em;
+        width: 60%;
+        margin: 50px 0;
     }
 
     h2 {
@@ -364,6 +457,14 @@ input[type="submit"]:hover {
 
     form {
         max-width: 80%;
+    }
+
+    .carousel-container {
+        width: 400px;
+    }
+
+    .carousel-slide img {
+        width: 400px;
     }
 }
 
@@ -428,10 +529,6 @@ input[type="submit"]:hover {
         cursor: pointer;
     }
 
-    section {
-        padding-top: 80px;
-    }
-
     img {
         width: 350px;
     }
@@ -446,6 +543,18 @@ input[type="submit"]:hover {
 
     #scrollUp {
         display: none;
+    }
+
+    #title {
+        margin: 20px 0 50px;
+        font-size: 40px;
+        font-weight: bolder;
+        display: inline-block;
+    }
+
+    .text-accueil {
+        width: 60%;
+        text-align: justify;
     }
 }
 

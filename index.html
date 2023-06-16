@@ -14,7 +14,7 @@
     <!-- <a href="https://www.flaticon.com/free-icons/ui" title="ui icons">Ui icons created by manshagraphics - Flaticon</a> -->
 </head>
 
-<body onload="choisirPhotosAleatoires()">
+<body>
 
     <header id="navbar" class="nav">
         <button onclick="switchTheme()">&#x263D;</button>
@@ -56,10 +56,29 @@
 
     </header>
 
-
-    <section id="imagesAleatoires">
-
+    <section class="accueil">
+        <h1 id="title">
+            Jérémy Gross
+        </h1>
+        <div class="carousel-container">
+            <div class="carousel-slide">
+                <img src="assets/img/Nice/IMG_2786.webp" alt="Image 1">
+                <img src="assets/img/MonacoGP/IMG_3266.webp" alt="Image 2">
+                <img src="assets/img/LaCiotat/IMG_1308.webp" alt="Image 3">
+                <img src="assets/img/Begur/IMG_0548.webp" alt="">
+            </div>
+            <button id="prevBtn">&#10094;</button>
+            <button id="nextBtn">&#10095;</button>
+        </div>
+        <div class="text-accueil">
+            <p>
+                Welcome to my photography portfolio ! Discover a new way to see the world and learn about what surrounds
+                us ! You can find here some of my best pictures, taken in different places around the world. I hope you
+                will enjoy it ! Don't hesitate to contact me if you have any questions or if you want to work with me !
+            </p>
+        </div>
     </section>
+
     <script src="assets/js/app.js"></script>
     <script src="assets/js/switchTheme.js"></script>
 </body>
