@@ -1,12 +1,3 @@
-function myFunction() {
-    var x = document.getElementById("navbar");
-    if (x.className === "nav") {
-        x.className += " responsive";
-    } else {
-        x.className = "nav";
-    }
-}
-
 const carouselSlide = document.querySelector(".carousel-slide");
 const carouselImages = document.querySelectorAll(".carousel-slide img");
 const prevBtn = document.getElementById("prevBtn");
