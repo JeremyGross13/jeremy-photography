@@ -1,33 +1,24 @@
-const carouselSlide = document.querySelector(".carousel-slide");
-const carouselImages = document.querySelectorAll(".carousel-slide img");
-const prevBtn = document.getElementById("prevBtn");
-const nextBtn = document.getElementById("nextBtn");
+function verifierApparitionSections() {
+    var sections = document.querySelectorAll('.animate');
+    var hauteurEcran = window.innerHeight;
+    var seuilScroll = hauteurEcran * 0.7; // Modifier la valeur selon vos besoins
 
-// Variables pour la navigation
-let counter = 1;
-const slideWidth = carouselImages[0].clientWidth;
+    for (var i = 0; i < sections.length; i++) {
+        var section = sections[i];
+        var positionSection = section.getBoundingClientRect().top;
 
-// Déplacer le carrousel à l'image suivante
-function moveToNextSlide() {
-    if (counter >= carouselImages.length - 2) return;
-    carouselSlide.style.transition = "transform 0.5s ease-in-out";
-    counter++;
-    carouselSlide.style.transform = `translateX(${-slideWidth * counter}px)`;
+        if (positionSection < seuilScroll) {
+            section.classList.add('apparition-active');
+        }
+    }
 }
 
-// Déplacer le carrousel à l'image précédente
-function moveToPrevSlide() {
-    if (counter <= 0) return;
-    carouselSlide.style.transition = "transform 0.5s ease-in-out";
-    counter--;
-    carouselSlide.style.transform = `translateX(${-slideWidth * counter}px)`;
+function gererScroll() {
+    verifierApparitionSections();
 }
 
-// Événements pour la navigation
-document.addEventListener("DOMContentLoaded", () => {
-    carouselSlide.style.transform = `translateX(${-slideWidth * counter}px)`;
+window.addEventListener('load', function () {
+    verifierApparitionSections();
+
+    window.addEventListener('scroll', gererScroll);
 });
-
-// Écouteurs d'événements pour les boutons de navigation
-nextBtn.addEventListener("click", moveToNextSlide);
-prevBtn.addEventListener("click", moveToPrevSlide);

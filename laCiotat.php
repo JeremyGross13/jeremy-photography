@@ -94,7 +94,6 @@
 
     <?php include 'utils/footer.php'; ?>
 
-    <script src="assets/js/switchTheme.js"></script>
 </body>
 
 </html>

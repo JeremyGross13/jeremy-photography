@@ -17,7 +17,7 @@
 
     <?php include 'utils/header.php'; ?>
 
-    <section class="accueil">
+    <section class="accueil animate">
         <article>
             <a href="nice.php">
                 <img src="assets/img/Nice/IMG_3319.webp" alt="Image accueil">
@@ -47,7 +47,7 @@
         </article>
     </section>
 
-    <section class="accueil">
+    <section class="accueil animate">
         <article>
             <a href="laCiotat.php">
                 <img src="assets/img/LaCiotat/IMG_1321.webp" alt="Image accueil">
@@ -77,7 +77,7 @@
         </article>
     </section>
 
-    <section class="accueil">
+    <section class="accueil animate">
         <article>
             <a href="gpMonaco.php">
                 <img src="assets/img/MonacoGP/IMG_2884.webp" alt="Image accueil">
@@ -109,7 +109,7 @@
         </article>
     </section>
 
-    <section class="accueil">
+    <section class="accueil animate">
         <article>
             <a href="begur.php">
                 <img src="assets/img/Begur/IMG_0548.webp" alt="Image accueil">
@@ -120,7 +120,7 @@
                 Begur
             </h2>
             <span>
-                August 2023
+                August 2022
             </span>
             <p>
                 Embark on a visual odyssey through the captivating city of Begur with our mesmerizing collection of
@@ -140,7 +140,7 @@
         </article>
     </section>
 
-    <section class="accueil">
+    <section class="accueil animate">
         <article>
             <a href="aquarium.php">
                 <img src="assets/img/Aquarium/IMG_3628.webp" alt="Image accueil">
@@ -170,7 +170,7 @@
         </article>
     </section>
 
-    <section class="accueil">
+    <section class="accueil animate">
         <article>
             <a href="monaco.php">
                 <img src="assets/img/Monaco/IMG_3611.webp" alt="Image accueil">
@@ -181,7 +181,7 @@
                 Monaco
             </h2>
             <span>
-                August 20, 2023
+                August 20, 2022
             </span>
             <p>
                 Step into the glamorous world of Monaco through our captivating collection of photographs.
@@ -198,7 +198,7 @@
         </article>
     </section>
 
-    <section class="accueil">
+    <section class="accueil animate">
         <article>
             <a href="sausset.php">
                 <img src="assets/img/Sausset/IMG_1957.webp" alt="Image accueil">
@@ -228,7 +228,7 @@
 
     <?php include 'utils/footer.php'; ?>
 
-    <script src=" assets/js/switchTheme.js"></script>
+    <script src="assets/js/app.js"></script>
 </body>
 
 </html>
