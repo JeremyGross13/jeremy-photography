@@ -311,3 +311,23 @@ footer a img:hover {
         width: 500px;
     }
 }
+
+@media (max-width: 950px) {
+    .accueil article {
+        width: 90%;
+    }
+
+    .accueil article img {
+        width: 100%;
+        height: auto;
+    }
+
+    .contact article {
+        width: 100%;
+    }
+
+    .gallery img {
+        width: 100%;
+    }
+
+}
