@@ -14,6 +14,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     mail($to, $subject, $body);
 
     // Redirection vers une page de confirmation ou un message de succès
-    header("Location: contact.html");
+    header("Location: ../contact.php");
     exit();
 }

@@ -59,10 +59,18 @@ header>a {
 /*---------------------------------------*/
 
 .accueil {
+    opacity: 0;
+    transform: translateX(-50px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 0 30px 100px;
+}
+
+.accueil.apparition-active {
+    opacity: 1;
+    transform: translateX(0);
 }
 
 .accueil article img {
@@ -188,6 +196,7 @@ textarea {
 }
 
 input[type="submit"] {
+    background-color: rgb(170, 170, 170);
     border: none;
     width: 60%;
     color: #303030;
