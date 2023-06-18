@@ -22,3 +22,16 @@ window.addEventListener('load', function () {
 
     window.addEventListener('scroll', gererScroll);
 });
+
+var path = window.location.pathname;
+path = path.substring(path.lastIndexOf('/') + 1);
+
+var navLinks = document.querySelectorAll('.nav a');
+
+for (var i = 0; i < navLinks.length; i++) {
+    var linkPath = navLinks[i].getAttribute('href');
+
+    if (linkPath === path) {
+        navLinks[i].classList.add('active');
+    }
+}
