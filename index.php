@@ -4,7 +4,7 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
-    <title> Jeremy Gross | Accueil </title>
+    <title> Jeremy Gross | Home </title>
     <meta name="description"
         content="Welcome to my photography portfolio ! Discover a new way to see the world and learn about what surrounds us">
     <meta name="keywords" content="photo, photography, shooting, cars, landscape, cities, pictures">

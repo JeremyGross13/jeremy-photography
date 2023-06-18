@@ -4,7 +4,7 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
-    <title> Jeremy Gross | Accueil </title>
+    <title> Jeremy Gross | Contact </title>
     <meta name="description"
         content="Here, you can easily get in touch with me to discuss your photography needs and capture those special moments. 
         Whether you're looking for a professional photo shoot, event coverage, or any other photography service, 
@@ -23,20 +23,15 @@
         <article>
             <h2>Contact form</h2>
             <form method="post" action="utils/envoi-email.php">
-                <label for="nom">First name :</label>
-                <input type="text" id="nom" name="nom" required>
+                <input type="text" id="nom" name="nom" placeholder="First Name" required>
 
-                <label for="prenom">Last name :</label>
-                <input type="text" id="prenom" name="prenom" required>
+                <input type="text" id="prenom" name="prenom" placeholder="Last Name" required>
 
-                <label for="telephone">Phone :</label>
-                <input type="tel" id="telephone" name="telephone" required>
+                <input type="tel" id="telephone" name="telephone" placeholder="Phone" required>
 
-                <label for="email">Mail :</label>
-                <input type="text" id="email" name="email" required>
+                <input type="text" id="email" name="email" placeholder="Mail" required>
 
-                <label for="message">Message :</label>
-                <textarea id="message" name="message" rows="4" required></textarea>
+                <textarea id="message" name="message" rows="4" placeholder="Message" required></textarea>
 
                 <input type="submit" value="Send">
             </form>
@@ -45,6 +40,7 @@
 
     <?php include 'utils/footer.php'; ?>
 
+    <script src="assets/js/app.js"></script>
 </body>
 
 </html>

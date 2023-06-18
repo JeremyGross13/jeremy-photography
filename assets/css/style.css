@@ -30,6 +30,11 @@ header>a {
     font-family: Montserrat, sans-serif;
     font-weight: 700;
     color: #303030;
+    transition: 0.3s ease;
+}
+
+header>a:hover {
+    color: #959595;
 }
 
 .nav {
@@ -49,9 +54,47 @@ header>a {
     line-height: 18px;
     text-decoration: none;
     display: inline-block;
+    color: #959595;
+    font-weight: 700;
+    transition: 0.3s ease;
+}
+
+.nav>a:hover {
     color: #303030;
-    font-weight: 300;
-    background-color: rgba(0, 0, 0, 0);
+}
+
+.nav>a.active {
+    color: #303030;
+}
+
+/*--------------------------------------*/
+/*------------ Confirmation ------------*/
+/*--------------------------------------*/
+
+.confirmation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.confirmation span {
+    font-family: Montserrat, sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 33px;
+    color: #303030;
+    margin-bottom: 20px;
+}
+
+.confirmation p,
+.confirmation #countdown {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    line-height: 22px;
+    color: #303030;
+    margin-bottom: 20px;
 }
 
 /*---------------------------------------*/
@@ -61,7 +104,7 @@ header>a {
 .accueil {
     opacity: 0;
     transform: translateX(-50px);
-    transition: opacity 0.5s ease, transform 0.5s ease;
+    transition: opacity 1s ease, transform 1s ease;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -174,16 +217,9 @@ header>a {
     flex-direction: column;
 }
 
-label {
-    color: #303030;
-    display: block;
-    font-size: 1em;
-    margin-bottom: 10px;
-    font-family: Arial, sans-serif;
-}
-
 input,
 textarea {
+    padding: 9px;
     font-family: Arial, sans-serif;
     width: 256px;
     display: block;
@@ -191,15 +227,18 @@ textarea {
     resize: none;
     min-height: 25px;
     border: none;
-    border-bottom: 1px solid #ccc;
+    border-radius: none;
+    font-size: 14px;
+    color: #303030;
     outline: none;
+    background-color: #d7d4d4;
 }
 
 input[type="submit"] {
-    background-color: rgb(170, 170, 170);
+    background-color: rgb(121, 121, 121);
     border: none;
     width: 60%;
-    color: #303030;
+    color: #fff;
     text-align: center;
     letter-spacing: 1px;
     text-transform: uppercase;
@@ -211,6 +250,10 @@ input[type="submit"] {
     text-decoration: none;
     transition: color .2s;
     display: block;
+}
+
+input[type="submit"]:hover {
+    background-color: rgb(153, 153, 153);
 }
 
 /*-------------------------------------*/
